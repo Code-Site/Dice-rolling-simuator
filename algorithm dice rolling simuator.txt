@@ -1,0 +1,14 @@
+Logic of my dice rolling simulator project
+
+1. first take up a random dice from choice 
+2. then print it out using multiple print statements
+3. then ask the user to give a user input [y/n]
+4. if yes loop it out again
+5. all these stuff should be in a while loop 
+6. if n in user input exit using the sys module
+
+the images for choice random for computer 
+
+print([                ]
+[       0       ]
+[                ])
