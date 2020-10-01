@@ -1,8 +1,9 @@
 import random
 import sys
+
 run = True
-print("This is a die rolling simulator !")
-ask = input("do you want to roll the die ? [y/n] -->")
+print("\t\t\t\t\t\tThis is a die rolling simulator !\n")
+ask = input("do you want to roll the die ? [y/n] -->").lower()
 
 if ask == 'y':
     print("you can proceed")
@@ -16,7 +17,7 @@ while run:
         print("[     0     ]")
         print("[           ]")
         print("[-----------]")
-        ask1 = input("would you like to continue [y/n]? -->")
+        ask1 = input("would you like to continue [y/n]? -->").lower()
         if ask1 == 'y':
             continue
         else:
@@ -27,7 +28,7 @@ while run:
         print("[    0 0    ]")
         print("[           ]")
         print("[-----------]")
-        ask2 = input("would you like to continue [y/n]? -->")
+        ask2 = input("would you like to continue [y/n]? -->").lower()
         if ask2 == 'y':
             continue
         else:
@@ -39,7 +40,7 @@ while run:
         print("[     0     ]")
         print("[   0   0   ]")
         print("[-----------]")
-        ask3 = input("would you like to continue [y/n]? -->")
+        ask3 = input("would you like to continue [y/n]? -->").lower()
         if ask3 == 'y':
             continue
         else:
@@ -51,7 +52,7 @@ while run:
         print("[    0 0    ]")
         print("[    0 0    ]")
         print("[-----------]")
-        ask4 = input("would you like to continue [y/n]? -->")
+        ask4 = input("would you like to continue [y/n]? -->").lower()
         if ask4 == 'y':
             continue
         else:
@@ -64,7 +65,7 @@ while run:
         print("[     0     ]")
         print("[   0   0   ]")
         print("[-----------]")
-        ask5 = input("would you like to continue [y/n]? -->")
+        ask5 = input("would you like to continue [y/n]? -->").lower()
         if ask5 == 'y':
             continue
         else:
@@ -77,20 +78,8 @@ while run:
         print("[    0  0   ]")
         print("[    0  0   ]")
         print("[-----------]")
-        ask6 = input("would you like to continue [y/n]? -->")
+        ask6 = input("would you like to continue [y/n]? -->").lower()
         if ask6 == 'y':
             continue
         else:
             sys.exit()
-
-    
-        
-
-
-        
-
-
-        
-
-
-        
